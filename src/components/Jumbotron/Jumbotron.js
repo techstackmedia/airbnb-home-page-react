@@ -1,4 +1,3 @@
-import React from "react";
 import JumbotronImage from "../../images/group.png";
 
 const Jumbotron = () => {

@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -18,7 +18,7 @@ header {
 }
 
 section {
-  margin: 40px
+  margin: 40px;
 }
 
 .header-image {
@@ -34,6 +34,33 @@ section {
 
 h2 ~ p {
   margin-top: 16px;
-  width: 30%;
+  width: 50%;
   font-weight: 300;
+}
+
+.ads {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  position: relative;
+}
+
+.tag {
+  text-transform: uppercase;
+  background-color: #fff;
+  padding: 3px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-size: 12px;
+}
+
+.rate {
+  color: #918E9B
+}
+
+.feature {
+  color: #222
 }
