@@ -47,6 +47,11 @@ h2 ~ p {
   position: relative;
 }
 
+.ads-img {
+  width: 100%;
+  height: 400px;
+}
+
 .tag {
   text-transform: uppercase;
   background-color: #fff;
@@ -58,9 +63,41 @@ h2 ~ p {
 }
 
 .rate {
-  color: #918E9B
+  color: #918e9b;
 }
 
 .feature {
-  color: #222
+  color: #222;
+}
+
+.jumbotron {
+  width: 90%;
+}
+
+.jumbotron-msg {
+  width: 75%;
+}
+
+@media (max-width: 834px) {
+  .jumbotron-msg {
+    width: 90%;
+  }
+}
+
+@media (max-width: 564px) {
+  .jumbotron-msg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 937px) {
+  .ads-img {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .jumbotron {
+    width: 70%;
+  }
 }

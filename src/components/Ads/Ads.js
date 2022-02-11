@@ -8,7 +8,7 @@ const Ads = () => {
     <section className="ads">
       <div className="box ads-1">
         <div className="tag">Sold out</div>
-        <img src={ads1} width="100%" height="400px" alt="" />
+        <img className="ads-img" src={ads1} alt="" /> <br />
         <img src={star} alt="star review" width="16px" />
         <span>
           {" "}
@@ -22,7 +22,7 @@ const Ads = () => {
       </div>
       <div className="box ads-2">
         <div className="tag">Online</div>
-        <img src={ads2} width="100%" height="400px" alt="" />
+        <img className="ads-img" src={ads2} alt="" /> <br />
         <img src={star} alt="star review" width="16px" />
         <span>
           {" "}
@@ -35,8 +35,7 @@ const Ads = () => {
         </span>
       </div>
       <div className="box ads-3">
-        <div></div>
-        <img src={ads3} width="100%" height="400px" alt="" />
+        <img className="ads-img" src={ads3} alt="" /> <br />
         <img src={star} alt="star review" width="16px" />
         <span>
           {" "}
