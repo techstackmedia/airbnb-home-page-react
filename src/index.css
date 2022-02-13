@@ -60,6 +60,7 @@ h2 ~ p {
   top: 10px;
   left: 15px;
   font-size: 12px;
+  border-radius: 2px;
 }
 
 .rate {
